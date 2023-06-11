@@ -7,9 +7,9 @@ class Config:
                                        'local_data')
         self.db_name = os.path.join(self.local_data, 'main.sqlite')
         self.bot_session_name = 'bot_release'
-        self.bot_token = '5445680867:AAFVBfZd0DmcYcrHToP5daEXhHH7ahB-sFA'  # @botfather
-        self.api_id = 9642740  # my.telegram.org/apps
-        self.api_hash = 'cbef4484034fa81f1af50b65baaf1081'  # my.telegram.org/apps
+        self.bot_token = ''  # @botfather
+        self.api_id =   # my.telegram.org/apps
+        self.api_hash = ''  # my.telegram.org/apps
 
         if not os.path.exists(self.local_data):
             os.makedirs(self.local_data)
